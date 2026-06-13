@@ -1,0 +1,47 @@
+export const CLINIC = {
+  name: 'Assure Clinic',
+  tagline: "Hyderabad's #1 Hair Transplant Clinic",
+  subTagline: '100% Doctor-Led. 20,000+ Successful Transplants. Natural Results Guaranteed.',
+  phone: '+91 8976877587',
+  whatsapp: '+918657977572',
+  email: 'info@assureclinic.com',
+  address: {
+    line1: 'Unit No 2 & 3, Shanti Kiran Apartments',
+    line2: 'HSR Eden Tower, Road No. 2',
+    line3: 'Opposite KBR Park, Banjara Hills',
+    city: 'Hyderabad',
+    state: 'Telangana',
+    pincode: '500034',
+    landmark: 'Opposite KBR Park, Park View Enclave',
+  },
+  timings: 'Mon – Sat: 10:00 AM – 7:00 PM',
+  googleRating: 4.9,
+  reviewCount: 500,
+  practoRating: 4.8,
+  practoReviews: 525,
+  stats: [
+    { value: 20000, suffix: '+', label: 'Successful Transplants' },
+    { value: 60, suffix: '+', label: 'Qualified Doctors' },
+    { value: 4.9, suffix: '★', label: 'Google Rating', isDecimal: true },
+    { value: 10, suffix: '+', label: 'Years Experience' },
+  ],
+  nearbyAreas: ['Jubilee Hills', 'Madhapur', 'Hitech City', 'Gachibowli', 'Kondapur', 'Kukatpally'],
+  mapsUrl: 'https://maps.google.com/?q=Assure+Clinic+Banjara+Hills+Hyderabad+KBR+Park',
+  whatsappMsg: encodeURIComponent('Hi, I want to know about best hair transplant in Hyderabad'),
+}
+
+export const DOCTOR = {
+  name: 'Dr. Abhishek Pilani',
+  title: 'Founder & Celebrity Dermatologist',
+  credentials: 'MBBS, MD Dermatology (Gold Medalist)',
+  memberships: ['ISHRS Member', 'DHA Licensed', 'IADVL Member', 'Gold Medalist'],
+  experience: '10+ Years in Advanced Hair Restoration',
+  procedures: '20,000+ Successful Hair Transplants Performed',
+  specialties: [
+    'Specialist in Complex & Failed Transplant Cases',
+    'Trusted by Celebrities & Business Leaders',
+    'Trained 100s of Doctors in Hair Restoration',
+    'Inventor of UFME & DSHI techniques',
+  ],
+  quote: "At Assure Clinic Hyderabad, we don't just restore hair — we restore confidence. Every procedure is personally overseen by qualified doctors because your results matter too much to compromise.",
+}

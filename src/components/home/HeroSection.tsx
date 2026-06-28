@@ -16,7 +16,7 @@ export default function HeroSection() {
   return (
     <section className="relative z-0 min-h-screen bg-navy-section flex items-center overflow-hidden">
       {/* Pattern overlay */}
-      <div className="hero-pattern absolute inset-0 opacity-60" />
+      <div className="hero-pattern absolute inset-0 opacity-60 pointer-events-none" />
       {/* Gold accent gradient */}
       <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-gold/5 to-transparent pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-navy/60 to-transparent pointer-events-none" />

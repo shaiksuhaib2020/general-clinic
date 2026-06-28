@@ -18,7 +18,7 @@ interface PageHeroProps {
 
 export default function PageHero({ title, subtitle, breadcrumbs, tag }: PageHeroProps) {
   return (
-    <section className="bg-navy-section pt-32 pb-16 md:pt-36 md:pb-20 relative overflow-hidden">
+    <section className="bg-navy-section pt-32 pb-16 md:pt-36 md:pb-20 relative z-0 overflow-hidden">
       <div className="hero-pattern absolute inset-0 opacity-50" />
       <div className="absolute inset-0 bg-gradient-to-r from-navy/80 to-transparent" />
       <div className="relative container mx-auto px-4 md:px-8 max-w-7xl">

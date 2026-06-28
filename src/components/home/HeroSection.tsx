@@ -14,7 +14,7 @@ const fadeUp = (delay: number) => ({
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen bg-navy-section flex items-center overflow-hidden">
+    <section className="relative z-0 min-h-screen bg-navy-section flex items-center overflow-hidden">
       {/* Pattern overlay */}
       <div className="hero-pattern absolute inset-0 opacity-60" />
       {/* Gold accent gradient */}
